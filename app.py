@@ -25,7 +25,7 @@
     "import os\n",
     "\n",
     "# Load the trained LightGBM model\n",
-    "MODEL_PATH = \"/mnt/data/Light Gradient Boosting Machine.pkl\"\n",
+    "MODEL_PATH = \"Light Gradient Boosting Machine.pkl\"\n",
     "\n",
     "if os.path.exists(MODEL_PATH):\n",
     "    with open(MODEL_PATH, \"rb\") as f:\n",
